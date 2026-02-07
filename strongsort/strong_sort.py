@@ -8,7 +8,7 @@
 import warnings
 from os.path import join
 warnings.filterwarnings("ignore")
-from opts import opt
+from .opts import opt
 from deep_sort_app import run
 from AFLink.AppFreeLink import *
 from GSI import GSInterpolation
