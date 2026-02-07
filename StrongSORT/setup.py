@@ -12,10 +12,5 @@ setup(
         "scikit-learn>=0.24",
         "opencv-python>=4.6,<5",
     ],
-    packages=find_packages(include=[
-        "AFLink*",
-        "deep_sort*",
-        "application_util*",
-        "others*",
-    ]),
+    packages=find_packages(include=["strongsort*", "deep_sort*", "AFLink*"]),
 )
