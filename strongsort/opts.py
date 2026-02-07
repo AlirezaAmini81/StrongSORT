@@ -150,4 +150,5 @@ class opts:
         )
         return opt
 
-opt = opts().parse()
+if __name__ == "__main__":
+    opt = opts().parse()
